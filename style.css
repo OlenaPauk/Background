@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.color_class, .image_class {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.images {
+    width: 300px;
+    height: 260px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    opacity: 1;
+    position: absolute;
+    left: 500px;
+    z-index: 0;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9 {
+    width: 90px;
+    height: 95px;
+}
+
+.img4, .img5, .img6, .img7, .img8, .img9 {
+    margin-top: -4px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
